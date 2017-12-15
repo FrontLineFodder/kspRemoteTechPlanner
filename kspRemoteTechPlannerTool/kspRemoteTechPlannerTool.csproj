@@ -10,7 +10,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <TypeScriptToolsVersion>1.5</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -58,6 +58,9 @@
   <ItemGroup>
     <TypeScriptCompile Include="gulpfile.ts" />
     <TypeScriptCompile Include="scripts\typings\gulp-rename\gulp-rename.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\node\node-0.10.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\node\node-0.11.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\node\node-0.8.8.d.ts" />
     <TypeScriptCompile Include="scripts\typings\node\node.d.ts" />
     <TypeScriptCompile Include="scripts\typings\rimraf\rimraf.d.ts" />
     <TypeScriptCompile Include="tasks\deploy.ts" />
