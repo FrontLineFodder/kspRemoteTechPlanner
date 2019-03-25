@@ -19,20 +19,46 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
-    <Content Include="app\views\dataInput\antennaSelectorRSS.html" />
-    <Content Include="app\views\dataInput\antennaSelectorStock.html" />
-    <Content Include="app\views\dataInput\bodySelectorRSS.html" />
-    <Content Include="app\views\dataInput\bodySelectorStock.html" />
+    <Content Include="app\views\dataInput\antennaSelectorRSS.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\dataInput\antennaSelectorStock.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\dataInput\bodySelectorRSS.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\dataInput\bodySelectorStock.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="app\directives\foldingDiv\foldingDetailTemplate.html" />
-    <Content Include="app\views\antennaEdit.html" />
-    <Content Include="app\views\bodyEdit.html" />
-    <Content Include="app\views\singleLaunchView.html" />
-    <Content Include="app\views\description.html" />
-    <Content Include="app\views\dataInput.html" />
-    <Content Include="app\views\entireView.html" />
-    <Content Include="app\views\multiLaunchView.html" />
-    <Content Include="app\views\planner.html" />
-    <Content Include="app\views\settings.html" />
+    <Content Include="app\views\antennaEdit.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\bodyEdit.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\singleLaunchView.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\description.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\dataInput.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\entireView.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\multiLaunchView.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\planner.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app\views\settings.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
@@ -53,7 +79,9 @@
     <TypeScriptCompile Include="app\models\body.ts" />
     <TypeScriptCompile Include="app\models\antennaEquipment.ts" />
     <TypeScriptCompile Include="app\models\satChain.ts" />
-    <Content Include="app\views\nightView.html" />
+    <Content Include="app\views\nightView.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <TypeScriptCompile Include="app\models\settings.ts" />
     <TypeScriptCompile Include="app\services\eventService.ts" />
     <TypeScriptCompile Include="app\services\settingsService.ts" />
