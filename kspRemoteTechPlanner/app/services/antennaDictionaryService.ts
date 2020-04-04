@@ -24,13 +24,9 @@ namespace App {
             ) {
 
             this._stockAntennas = {
-<<<<<<< HEAD
-=======
                 "Reflectron DP-10": new Antenna("Reflectron DP-10", AntennaType.omni, 500, 0.01),
                 "Communotron 16-S": new Antenna("Communotron 16-S", AntennaType.omni, 1500, 0.02),
->>>>>>> 0682973d53893f8fb3b9137ad4fea2a1092da24c
                 "Communotron 16": new Antenna("Communotron 16", AntennaType.omni, 2500, 0.13),
-                "Communotron 16-S": new Antenna("Communotron 16-S", AntennaType.omni, 1500, 0.02),
                 "Comms DTS-M1": new Antenna("Comms DTS-M1", AntennaType.dish, 50000, 0.82),
                 "Communotron HG-55": new Antenna("Communotron HG-55", AntennaType.dish, 25000000, 1.04),
                 "Communotron HG-5": new Antenna("Communotron HG-5", AntennaType.dish, 20000, 0.55),
@@ -41,9 +37,7 @@ namespace App {
                 "Reflectron DP-10": new Antenna("Reflectron DP-10", AntennaType.omni, 500, 0.01),
                 "CommTech EXP-VR-2T": new Antenna("CommTech EXP-VR-2T", AntennaType.omni, 3000, 0.18),
                 "Communotron 32": new Antenna("Communotron 32", AntennaType.omni, 5000, 0.6),
-<<<<<<< HEAD
                 "Reflectron KR-7": new Antenna("Reflectron KR-7", AntennaType.dish, 90000, 0.82),
-=======
                 "HG-5 High Gain Antenna": new Antenna("HG-5 High Gain Antenna", AntennaType.dish, 20000, 0.55),
                 "Comms DTS-M1": new Antenna("Comms DTS-M1", AntennaType.dish, 50000, 0.82),
                 "Reflectron KR-7": new Antenna("Reflectron KR-7", AntennaType.dish, 90000, 0.82),
@@ -51,7 +45,6 @@ namespace App {
                 "RA-15 Relay Antenna": new Antenna("RA-15 Relay Antenna", AntennaType.dish, 10000000, 1.10),
                 "Communotron HG-55": new Antenna("Communotron HG-55", AntennaType.dish, 25000000, 1.04),
                 "Communotron 88-88": new Antenna("Communotron 88-88", AntennaType.dish, 40000000, 0.93),
->>>>>>> 0682973d53893f8fb3b9137ad4fea2a1092da24c
                 "Reflectron KR-14": new Antenna("Reflectron KR-14", AntennaType.dish, 60000000, 0.93),
                 "RA-100 Relay Antenna": new Antenna("RA-100 Relay Antenna", AntennaType.dish, 100000000, 1.10),
                 "CommTech-1": new Antenna("CommTech-1", AntennaType.dish, 350000000, 2.6),
